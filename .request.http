@@ -1,0 +1,23 @@
+
+POST http://localhost:1368/api/user
+Content-Type: application/json
+
+{
+    "username": "megazord01",
+    "password": "123456"
+}
+
+###
+GET http://localhost:1368/api/user/61a919db6898066c44bee028
+Content-Type: application/json
+
+
+###
+POST http://localhost:1368/api/user/61a919db6898066c44bee028
+Content-Type: application/json
+
+{
+    "list": [
+        1,2,3
+    ]
+}
